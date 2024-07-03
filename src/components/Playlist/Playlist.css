@@ -1,0 +1,35 @@
+.Playlist {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffebcd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Playlist input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ff4757;
+    border-radius: 5px;
+  }
+  
+  .Playlist-save {
+    padding: 10px 20px;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Playlist-save:hover {
+    background-color: #e63946;
+  }
+
+  @media (max-width: 768px) {
+    .Playlist {
+      width: 80%;
+    }
+  }

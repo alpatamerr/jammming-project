@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f9fc;
+}
+
+h1 {
+  text-align: center;
+  color: #ff4757;
+}
+
+.highlight {
+  color: #1e90ff;
+}

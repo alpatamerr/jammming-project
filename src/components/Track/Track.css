@@ -1,0 +1,39 @@
+.Track {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 10px
+  }
+
+  .Track-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+  }
+  
+  .Track-information h3 {
+    margin: 0;
+    color: #2f3542;
+  }
+  
+  .Track-information p {
+    margin: 5px 0 0;
+    color: #57606f;
+  }
+  
+  .Track-action {
+    padding: 5px 10px;
+    background-color: #2ed573;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Track-action:hover {
+    background-color: #26d67a;
+  }
